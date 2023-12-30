@@ -1,0 +1,18 @@
+debug: false
+uuid: 685ada79-dff0-410d-868d-df7664bc14b4
+token_id: e2EZhr0W9MxhHkJF
+token: pwDktO40BF8vJs6of3K7epPU33rVD917CEsk7GHd8zBRmJztAlfzqvrsytIeqm1u
+api:
+  host: 0.0.0.0
+  port: 8080
+  ssl:
+    enabled: true
+    cert: /etc/letsencrypt/live/ggdnodes.us.to/fullchain.pem
+    key: /etc/letsencrypt/live/ggdnodes.us.to/privkey.pem
+  upload_limit: 100
+system:
+  data: /var/lib/pterodactyl/volumes
+  sftp:
+    bind_port: 2022
+allowed_mounts: []
+remote: 'https://literate-guide-v66pr4xv7574fppqw-80.app.github.dev'
